@@ -4,17 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lesson-tables</title>
+    <style>
+        
+        th,td{
+            border: 1px solid black;
+        }
+        .he{
+            background-color: rgb(213, 180, 180);
+        }
+        .t2{
+             border: 1px solid greenyellow;
+        }
+        .name{
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
 <body>
-    <table border="1">
+    <table style="border: 1px solid rgb(0, 0, 0);">
         <thead>
             <tr>
-            <th>First Name</th>
+            <th class="he">First Name</th>
             <th>Middle Name</th>
             <th>Last Name</th>
             <th>Contact</th>
             </tr>
-            </thead>
+         </thead>
         <tbody>
             <tr>
                 <td>John</td>
@@ -31,6 +46,41 @@
            
     </tbody>
         <tfoot></tfoot>
+    </table>
+
+    <table class="t2">
+        <thead class="name">
+            <tr>
+                <th >Item Name</th>
+                <th >Qty</th>
+                <th >Price</th>
+            </tr>
+         <thead>
+         <tbody>
+            <tr>
+                <td>biscuit</td>
+                <td>5</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>chocolate</td>
+                <td>2</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>milo</td>
+                <td>1</td>
+                <td>130</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td></td>
+                <td>500</td>
+            </tr>
+        </tfoot>
+
     </table>
 </body>
 </html>
