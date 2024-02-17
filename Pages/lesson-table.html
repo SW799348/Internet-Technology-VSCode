@@ -9,19 +9,27 @@
         th,td{
             border: 1px solid black;
         }
+        .t1{
+            width: 500px;
+        }
         .he{
-            background-color: rgb(213, 180, 180);
+            background-color: rgb(164, 77, 77);
         }
         .t2{
              border: 1px solid greenyellow;
+             width: 500px;
         }
         .name{
-            background-color: antiquewhite;
+            background-color: rgb(211, 137, 40);
+        }
+        .t3{
+            border: 1px solid green;
         }
     </style>
 </head>
 <body>
-    <table style="border: 1px solid rgb(0, 0, 0);">
+    <h3>Table 1</h3>
+    <table class="t1">
         <thead>
             <tr>
             <th class="he">First Name</th>
@@ -43,10 +51,12 @@
                 <td>werfwerw</td>
                 <td>783247834</td>
             </tr>
+            <t/body>
+            </table>
+            <br/>
            
-    </tbody>
-        <tfoot></tfoot>
-    </table>
+
+    <h3>Table2</h3>
 
     <table class="t2">
         <thead class="name">
@@ -55,7 +65,7 @@
                 <th >Qty</th>
                 <th >Price</th>
             </tr>
-         <thead>
+        </thead>
          <tbody>
             <tr>
                 <td>biscuit</td>
@@ -77,10 +87,60 @@
             <tr>
                 <td>Total</td>
                 <td></td>
-                <td>500</td>
+                <td>430</td>
             </tr>
         </tfoot>
 
+    </table>
+
+<br/>
+<h3>Table colSpan</h3>
+
+  <table class="t3" style="width: 400px; text-align: center;">  <!--  samawa bedagnna one nisa 400px deel cell ekaka height eka 100 dunne -->
+        <tr style="height: 100px;">
+            <td colspan="2">1</td>
+
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>5</td>
+            <td colspan="3">6</td>
+
+        </tr>
+        <tr style="height: 100px;">
+            <td>9</td>
+            <td colspan="2">10</td>
+            <td>12</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td colspan="3">13</td>
+            <td>16</td>
+        </tr>
+       </table>
+
+    </br>
+
+    <table style="width: 400px; text-align: center; border: 1px solid blueviolet;">
+        <tr style="height: 100px;">
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td rowspan="3">6</td>
+            <td>7</td>
+            <td rowspan="3">8</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td rowspan="2">9</td>
+            <td>11</td>
+        </tr>
+        <tr style="height: 100px;">
+
+            <td>15</td>
+        </tr>
     </table>
 </body>
 </html>
