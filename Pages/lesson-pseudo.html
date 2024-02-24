@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-pseudo</title>
+
+    <style>
+        button{
+            background-color: black;
+            color: aliceblue;
+        }
+        button:hover{
+            background-color: aquamarine;
+            color: black;
+            border-color: aquamarine;
+            cursor: pointer;
+        }
+
+        button:active{
+            background-color: chocolate;
+            color: aqua;
+        }
+
+        li:first-child{
+            color: blueviolet;
+        }
+
+        li:nth-child(3){
+            color: brown;
+        }
+
+        li:last-child{
+            color: cadetblue;
+        }
+
+        p::before{
+            content: "Read this...";
+            color: brown;
+            
+        }
+
+        p::after{
+            content: "end...";
+            color: yellowgreen;
+        }
+
+        p::first-letter{
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Pseudo Classes
+    </h1>
+
+    <button>
+        hello
+    </button>
+
+    <ul>
+        <li>JAVA</li>
+        <LI>JAVASCRIPT</LI>
+        <LI>PYTHON</LI>
+        <LI>TYPESCRIPT</LI>
+    </ul>
+
+    <h1>
+        Pseudo Elemnts
+    </h1>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quaerat vero voluptatem fugiat sed consequatur, dolorem sapiente magni ducimus consectetur at obcaecati. Ducimus soluta commodi quam alias tempore veniam labore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat libero recusandae illum neque aspernatur nisi minus, voluptates delectus totam, ea et facere repudiandae corporis nobis beatae error sapiente debitis perspiciatis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium et voluptatem aliquam nulla suscipit. Necessitatibus nobis voluptate beatae reprehenderit id eligendi veritatis adipisci autem. Adipisci impedit eos aperiam doloremque ex?
+    </p>
+</body>
+</html>

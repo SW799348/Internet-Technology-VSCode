@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-selecters</title>
+
+    <style>
+        h2{
+            color: blueviolet;
+        }
+
+        #id2{
+            color: brown;
+        }
+        .class{
+            color: chocolate;
+        }
+        input[type="text"]{
+            background-color: aquamarine;
+        }
+        button:hover{
+            background-color: aquamarine;
+        }
+        button{
+            background-color:coral
+        }
+        div p{
+            color: aqua;
+        }
+
+        div div p{
+            color: brown;
+        }
+
+        div > h5{
+            font-weight: bold;
+            color: cadetblue;
+        }
+
+        h2+p{
+            color: blue;
+        }
+
+        h3 ~ p{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selecters</h1>
+
+     ====== 1.Element Selecters ===== 
+
+  <h2 >
+    1.Element Selecter
+  </h2>
+
+  ====== 2.Id Selecters =====
+
+  <h2 id="id2"> 
+    2.Id Selecter
+  </h2>
+
+  ====== 3.Class Selecters =====
+
+  <h2 class="class"> 
+    3.Class Selecter
+  </h2>
+
+  ====== 4.Attribute Selecters =====
+
+  <h2 class="class"> 
+    3.Attribute Selecter
+  </h2>
+
+  <br>
+  <input type="text" name="Enter your full name" id="txtFull">
+
+  <br>
+
+  ====== 5.Pseudo Classes Selecters =====
+<br>
+
+<button>
+    sleep
+</button>
+  <br>
+
+  ====== 6.Pseudo Element Selecters =====
+
+<br>
+
+====== 7.Decendent Selecter =====
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, hic! Ex, cupiditate, atque consequuntur reiciendis fuga saepe suscipit quaerat voluptatibus neque earum magni repellendus exercitationem quasi facilis, ipsa enim vitae.</p>
+</div>
+
+<div>
+    <div>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ipsam, quam ea vero doloremque accusamus ab cupiditate odio, maxime optio numquam aliquam enim accusantium asperiores voluptatem. Nemo aspernatur dolor voluptatum fuga reiciendis voluptatibus nisi iste harum. Praesentium quam non quaerat tempore esse a mollitia maiores quod accusantium, nesciunt ex ullam debitis aut, eius labore. Distinctio mollitia a beatae dignissimos sapiente deserunt, adipisci, inventore debitis corporis modi voluptatum magnam veniam? Architecto id sapiente delectus exercitationem ad dolorem aperiam, soluta in aliquam dolores! Eveniet consectetur eum accusamus eos alias velit tempora dolore. Quod eaque ad maxime, minima veniam consectetur unde porro officiis!
+        </p>
+    </div>
+</div>
+
+<br>
+
+
+====8. child selecter(>)=====
+
+<div>
+    <h5>Java</h5>
+    <h5>Javascript</h5>
+    <h5>python</h5>
+    <h5>typeScript</h5>
+</div>
+
+<br>
+
+
+====8. Ajacent sibling selecter=====
+<h2>
+    Ajacent sibling selecter
+</h2>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel iste porro, nostrum corporis quam tempora officiis recusandae ut, totam ipsam illum est commodi eveniet! Aspernatur quasi labore laboriosam amet.
+</p>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel iste porro, nostrum corporis quam tempora officiis recusandae ut, totam ipsam illum est commodi eveniet! Aspernatur quasi labore laboriosam amet.
+</p>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores vel iste porro, nostrum corporis quam tempora officiis recusandae ut, totam ipsam illum est commodi eveniet! Aspernatur quasi labore laboriosam amet.
+</p>
+<br>
+
+
+====8. General  selecter=====
+<h3>
+    Heading
+</h3>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel modi reprehenderit accusantium aliquam voluptas molestias ad hic dicta aliquid eum neque, dignissimos, sit consequuntur quos corrupti laborum sunt eius?
+</p>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel modi reprehenderit accusantium aliquam voluptas molestias ad hic dicta aliquid eum neque, dignissimos, sit consequuntur quos corrupti laborum sunt eius?
+</p>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel modi reprehenderit accusantium aliquam voluptas molestias ad hic dicta aliquid eum neque, dignissimos, sit consequuntur quos corrupti laborum sunt eius?
+</p>
+
+
+</body>
+</html>
