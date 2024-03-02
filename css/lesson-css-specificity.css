@@ -1,0 +1,36 @@
+p{
+    color: blue;
+}
+
+.content{
+    color: chocolate;
+}
+
+#contentId{
+    color: cornflowerblue;
+}
+
+#receipe-heading{
+    color: crimson;
+}
+
+.card-title{
+    color: burlywood;
+}
+
+.card .card-title{
+    color: aquamarine;
+}
+
+h3 .card{
+    background-color: aquamarine;
+}
+.card h4{
+    background-color: bisque;
+}
+h3 .card-title{
+    color: blueviolet;
+}
+#receipe-heading .card{
+    background-color: rgb(113, 168, 87);
+}
