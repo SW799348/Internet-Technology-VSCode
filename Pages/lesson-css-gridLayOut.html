@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Css-Grid Lay Out</title>
-</head>
-<body>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non ipsum recusandae saepe provident veniam quisquam quo iure? Recusandae ducimus suscipit molestias quia, vel impedit exercitationem ipsum in voluptatibus quaerat!</div>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non ipsum recusandae saepe provident veniam quisquam quo iure? Recusandae ducimus suscipit molestias quia, vel impedit exercitationem ipsum in voluptatibus quaerat!</div>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non ipsum recusandae saepe provident veniam quisquam quo iure? Recusandae ducimus suscipit molestias quia, vel impedit exercitationem ipsum in voluptatibus quaerat!</div>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non ipsum recusandae saepe provident veniam quisquam quo iure? Recusandae ducimus suscipit molestias quia, vel impedit exercitationem ipsum in voluptatibus quaerat!</div>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non ipsum recusandae saepe provident veniam quisquam quo iure? Recusandae ducimus suscipit molestias quia, vel impedit exercitationem ipsum in voluptatibus quaerat!</div>
-    <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non ipsum recusandae saepe provident veniam quisquam quo iure? Recusandae ducimus suscipit molestias quia, vel impedit exercitationem ipsum in voluptatibus quaerat!</div>
-</body>
+
+    <style>
+      .container {
+        display: grid;
+        /* grid-template-columns: 20% 20% 20% 20% 20%; */
+        /* grid-template-columns: 1fr 3fr   */
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+      }
+
+      .container > div {
+        border: 1px solid;
+        padding: 8px;
+      }
+
+      .nested > div{
+        border: 1px solid;
+        padding: 8px;
+      }
+
+      /* .container >div:nth-child(5){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 1px solid;
+        padding: 10px;
+        
+      } */
+
+      .nested{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+      }
+
+
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non
+      </div>
+      <div class="nested">
+        <div class="nest1"></div>
+        <div class="nest2"></div>
+        <div class="nest3"></div>
+    </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur non
+      </div>
+      
+    </div>
+  </body>
 </html>
