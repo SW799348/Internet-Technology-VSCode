@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise-flexbox</title>
+    <style>
+      
+        
+
+        .cards{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            row-gap: 20px;
+            
+    
+        }
+
+        .card{
+            height: 300px;
+            width: 20vw;
+            /* border: black 1px solid; */
+            padding: 10px;
+            border-radius: 10px;
+            background-color: antiquewhite;
+            box-shadow: 2px 2px 2px grey;
+        }
+
+        .tittle{
+          font-size: 30px;
+          font-weight: bold;
+         text-align: center;
+        }
+        .image img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            object-fit: cover;
+        }
+
+        .imageTag{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            /* gap: 7px; */
+
+        }
+        .name{
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+
+           
+        }
+        .comment{
+            height: 150px;
+            /* border: rgb(79, 67, 67) 1px solid; */
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-color: white;
+            margin-top: 5px;
+            
+        }
+        .detail{
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="page1">
+
+         <div class="tittle">
+            Customer Reviews
+          </div>
+          <br>
+
+          <div class="cards">
+
+             <div class="card">
+             <div class="imageTag">
+                 <div class="image">
+                 <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                 </div>
+                 <div class="name">
+                  Samadhi Weerasekara
+                 </div>
+            </div>
+         <div class="comment">
+             <div class="detail">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+             </div>
+             </div>
+              </div>
+
+              <div class="card">
+                <div class="imageTag">
+                    <div class="image">
+                    <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                    </div>
+                    <div class="name">
+                     Samadhi Weerasekara
+                    </div>
+               </div>
+            <div class="comment">
+                <div class="detail">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+                </div>
+                </div>
+                 </div>
+
+                 <div class="card">
+                    <div class="imageTag">
+                        <div class="image">
+                        <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                        </div>
+                        <div class="name">
+                         Samadhi Weerasekara
+                        </div>
+                   </div>
+                <div class="comment">
+                    <div class="detail">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+                    </div>
+                    </div>
+                     </div>
+
+                     <div class="card">
+                        <div class="imageTag">
+                            <div class="image">
+                            <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                            </div>
+                            <div class="name">
+                             Samadhi Weerasekara
+                            </div>
+                       </div>
+                    <div class="comment">
+                        <div class="detail">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+                        </div>
+                        </div>
+                         </div>
+
+                         <div class="card">
+                            <div class="imageTag">
+                                <div class="image">
+                                <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                                </div>
+                                <div class="name">
+                                 Samadhi Weerasekara
+                                </div>
+                           </div>
+                        <div class="comment">
+                            <div class="detail">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+                            </div>
+                            </div>
+                             </div>
+
+                             <div class="card">
+                                <div class="imageTag">
+                                    <div class="image">
+                                    <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                                    </div>
+                                    <div class="name">
+                                     Samadhi Weerasekara
+                                    </div>
+                               </div>
+                            <div class="comment">
+                                <div class="detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+                                </div>
+                                </div>
+                                 </div>
+
+                                 <div class="card">
+                                    <div class="imageTag">
+                                        <div class="image">
+                                        <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                                        </div>
+                                        <div class="name">
+                                         Samadhi Weerasekara
+                                        </div>
+                                   </div>
+                                <div class="comment">
+                                    <div class="detail">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+                                    </div>
+                                    </div>
+                                     </div>
+
+             <div class="card">
+             <div class="imageTag">
+                 <div class="image">
+                 <img src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt="">
+                 </div>
+                 <div class="name">
+                  Samadhi Weerasekara
+                 </div>
+            </div>
+         <div class="comment">
+             <div class="detail">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a earum atque asperiores omnis iure dolores nisi. Iste quisquam delectus qui, ex, blanditiis ipsam velit provident, saepe consequuntur quis nisi.
+             </div>
+             </div>
+              </div>
+              
+
+            </div>
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    
+    
+
+
+
+    
+</body>
+</html>
