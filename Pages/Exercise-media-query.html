@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query Exercise</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h3 {
+        margin: 0;
+      }
+      h1 {
+        text-align: center;
+      }
+
+      .img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+
+      .img {
+        width: 6vw;
+        height: 13vh;
+      }
+
+      .main{
+        display: flex;
+        justify-content: center;
+
+      }
+      .card {
+        border: 1px solid black;
+        width: 200px;
+        height: 300px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 3px;
+        display: flex;
+        flex-wrap: wrap;
+        background: lightblue;
+      }
+      .stars {
+        width: 3vw;
+        height: 3vh;
+        display: flex;
+      }
+
+      .row1 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+      }
+
+      .row2 {
+        border: 1px solid black;
+        margin: 2vh;
+        padding: 1vh;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background: lavenderblush;
+      }
+      .name h4 {
+        text-align: right;
+      }
+    
+
+      @media screen and (max-width: 1400px) {
+        .wrapper {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+        }
+      }
+
+      @media screen and (max-width: 1200px) {
+        .wrapper {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+        }
+      }
+
+      @media screen and (max-width: 992px) {
+        .wrapper {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .wrapper {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+      @media screen and (max-width: 576px) {
+        .wrapper {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+      @media screen and (max-width: 575px) {
+        .wrapper {
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+   
+      <h1>Review Corner</h1>
+       <div class="main">
+      <div class="wrapper">
+        <div class="card">
+          <div class="row1">
+            <div class="img">
+              <img
+                src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="stars">
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+            </div>
+          </div>
+          <div class="row2">
+            <div class="para">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit temporibus nesciunt neque natus blanditiis pariatur
+                totam impedit quas culpa vel.
+              </p>
+            </div>
+            <div class="name">
+              <h4>Samadhi</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="row1">
+            <div class="img">
+              <img
+                src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="stars">
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+            </div>
+          </div>
+          <div class="row2">
+            <div class="para">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit temporibus nesciunt neque natus blanditiis pariatur
+                totam impedit quas culpa vel.
+              </p>
+            </div>
+            <div class="name">
+              <h4>Samadhi</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="row1">
+            <div class="img">
+              <img
+                src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="stars">
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+            </div>
+          </div>
+          <div class="row2">
+            <div class="para">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit temporibus nesciunt neque natus blanditiis pariatur
+                totam impedit quas culpa vel.
+              </p>
+            </div>
+            <div class="name">
+              <h4>Samadhi</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="row1">
+            <div class="img">
+              <img
+                src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="stars">
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+            </div>
+          </div>
+          <div class="row2">
+            <div class="para">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit temporibus nesciunt neque natus blanditiis pariatur
+                totam impedit quas culpa vel.
+              </p>
+            </div>
+            <div class="name">
+              <h4>Samadhi</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="row1">
+            <div class="img">
+              <img
+                src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="stars">
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+            </div>
+          </div>
+          <div class="row2">
+            <div class="para">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit temporibus nesciunt neque natus blanditiis pariatur
+                totam impedit quas culpa vel.
+              </p>
+            </div>
+            <div class="name">
+              <h4>Samadhi</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="row1">
+            <div class="img">
+              <img
+                src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg"
+                alt="image"
+              />
+            </div>
+            <div class="stars">
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+              <img src="/assests/images/icons8-star-48.png" alt="star" />
+            </div>
+          </div>
+          <div class="row2">
+            <div class="para">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Suscipit temporibus nesciunt neque natus blanditiis pariatur
+                totam impedit quas culpa vel.
+              </p>
+            </div>
+            <div class="name">
+              <h4>Samadhi</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    
+  </body>
+</html>
