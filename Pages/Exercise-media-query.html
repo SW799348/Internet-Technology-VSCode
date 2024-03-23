@@ -7,7 +7,7 @@
     <style>
       body {
         margin: 0;
-        padding: 0;
+        padding: 8px;
       }
       h3 {
         margin: 0;
@@ -111,6 +111,11 @@
           grid-template-columns: repeat(1, 1fr);
         }
       }
+
+      .scrollbar-review{
+        max-height: 150px;
+        overflow-y: auto;
+      }
     </style>
   </head>
 
@@ -137,7 +142,7 @@
           </div>
           <div class="row2">
             <div class="para">
-              <p>
+              <p class="scrollbar-review">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Suscipit temporibus nesciunt neque natus blanditiis pariatur
                 totam impedit quas culpa vel.

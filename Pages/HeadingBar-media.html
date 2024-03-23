@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heading-Bar-Responsive</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: cornsilk;
+      }
+
+      img {
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        border-radius: 50%;
+        padding: 10px;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        height: 100px;
+        background-color: dimgray;
+        justify-content: space-between;
+      }
+
+      ul {
+        display: flex;
+        align-items: center;
+      }
+      nav ul li {
+        list-style-type: none;
+        margin: 30px;
+        text-transform: uppercase;
+      }
+
+      .icon{
+        display: none;
+      }
+     
+      @media screen and (max-width: 656px) {
+        li{
+            display: none;
+        }
+        .icon{
+            display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        src="/assests/images/young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg"
+        alt=""
+      />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Service</li>
+          <li>Contact</li>
+          <img src="/assests/images/menu.png" alt="" style=" height: 20px; width: 30px; " class="icon">
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
