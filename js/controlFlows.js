@@ -74,7 +74,7 @@ do {
   x++;
 } while (x < 3);
 
-// Continue statement
+// Continue statement  
 for (let i = 0; i < 5; i++) {
   if (i === 2) {
     continue;
@@ -88,4 +88,8 @@ for (let i = 0; i < 5; i++) {
     break;
   }
   console.log("Iteration: " + i);
- }
+}
+
+// == --> checks only the values
+// === --> checks both values and the types
+
