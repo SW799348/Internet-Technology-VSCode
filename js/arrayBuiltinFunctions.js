@@ -86,3 +86,4 @@ console.log('Numbers array after sorted descending :',numbers.sort().reverse());
 let testingArray = ['kamal', 'nimal', 'amal', 100];
 console.log('testing array 0 index :', typeof testingArray[0]);
 console.log('testing array  3 index :', typeof testingArray[3]);
+console.log('testing array 1 index :' ,typeof testingArray[1]);

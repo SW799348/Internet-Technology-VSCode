@@ -64,3 +64,62 @@ console.log("=====================================================");
 console.log(addNumbers(10, 'kamal'));
 
 //NaN= Not a Number
+
+
+function addNumbers(num1,num2) {
+  if (num1>0) {
+    let a = 'abc'
+    console.log('a :' ,a);
+  }
+  // console.log('a :' ,a);  = error a is not defined
+}
+addNumbers(1,2)
+
+// console.log("=====================================================");
+
+// function addNumbers(num1) {
+//   let a='abc';
+//   if (num1>0) {
+//     // console.log('a :' ,a);
+//   }
+//   console.log('a :' ,a);
+// }
+
+
+
+
+function addNumbers(num1,num2) {
+  if (num1 > 0) {
+    var a='abc';   // var is function scoped 
+    // console.log('a :' ,a);
+  }
+  console.log('a :' ,a); 
+}
+
+addNumbers(1,2)
+
+console.log("=====================================================");
+
+function addNumbers(num1,num2) {
+  var b='xyz'
+  if (num1 > 0) {
+    var a='abc';   // var is function scoped 
+    console.log('b :' ,b);
+  }
+  console.log('a :' ,a); 
+}
+
+addNumbers(1,2)
+
+console.log("=====================================================");
+
+function addNumbers(num1,num2) {
+  let b='xyz'
+  if (num1 > 0) {
+    var a='abc';   // var is function scoped 
+    console.log('b :' ,b);
+  }
+  console.log('a :' ,a); 
+}
+
+addNumbers(1,2)
