@@ -25,3 +25,24 @@ console.log('Student : ', student)
 student.age = 22;
 console.log('Student age : ', student.age)
 console.log('Student : ', student)
+
+
+let person = {
+    name: 'kamal',
+    age: 20,
+    phone: '077 6547833',
+    
+    greet: function () {
+        console.log('hey! good morning');
+    }
+
+}
+console.log(person.greet());
+
+console.log('==========================================');
+
+//iterating over properties
+
+for (let key in person) {
+    console.log(key +person );
+}
