@@ -22,10 +22,12 @@ console.log('===================================================================
 
 // setInterval(callback,interval)
 
-let interval=setInterval(() => {
-    console.log('heyyyy');
-}, 1000);
+let greet = () => {
+    console.log('hellow world');
+}
 
-//clear interval
+let interval=setInterval(greet, 1000);
+
+//cancel the interval
 
 clearInterval(interval)
